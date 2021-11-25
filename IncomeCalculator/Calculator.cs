@@ -23,8 +23,11 @@ namespace IncomeCalculator
                 double.TryParse(Console.ReadLine(), out hoursWorked);
                 // calculate income based on the information passed by the user
                 double grossIncome = calculateGrossIncome(income, hoursWorked);
-                Console.WriteLine($"The gross income for this upcoming pay period is: {grossIncome}");
+                Console.WriteLine($"The gross income for this upcoming pay period is: {grossIncome.ToString("c")}");
+                Console.WriteLine("Would you like to continue? y/n");
+               char.TryParse(Console.ReadLine(), out choice);
             }
+
             while (choice == 'y');
         }
         // functions
