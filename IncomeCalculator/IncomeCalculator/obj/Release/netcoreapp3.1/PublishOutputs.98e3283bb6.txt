@@ -1,0 +1,5 @@
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\publish\IncomeCalculator.exe
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\publish\IncomeCalculator.dll
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\publish\IncomeCalculator.deps.json
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\publish\IncomeCalculator.runtimeconfig.json
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\publish\IncomeCalculator.pdb

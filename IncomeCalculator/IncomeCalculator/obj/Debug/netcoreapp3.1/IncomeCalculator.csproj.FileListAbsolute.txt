@@ -1,0 +1,14 @@
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.csproj.AssemblyReference.cache
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.AssemblyInfoInputs.cache
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.AssemblyInfo.cs
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\Debug\netcoreapp3.1\IncomeCalculator.exe
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\Debug\netcoreapp3.1\IncomeCalculator.deps.json
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\Debug\netcoreapp3.1\IncomeCalculator.runtimeconfig.json
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\Debug\netcoreapp3.1\IncomeCalculator.runtimeconfig.dev.json
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\Debug\netcoreapp3.1\IncomeCalculator.dll
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\bin\Debug\netcoreapp3.1\IncomeCalculator.pdb
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.dll
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.pdb
+C:\Users\Jordan\Documents\Projects\IncomeCalculator\IncomeCalculator\obj\Debug\netcoreapp3.1\IncomeCalculator.genruntimeconfig.cache
