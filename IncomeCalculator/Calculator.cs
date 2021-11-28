@@ -48,13 +48,11 @@ namespace IncomeCalculator
                 // calculate income based on the information passed by the user
                 double grossIncome = calculateGrossIncome(income, hoursWorked);
                 Console.WriteLine($"The gross income for this upcoming pay period is: {grossIncome.ToString("c")}");
-                Console.WriteLine("Would you like to calculate your net income? y/n");
-                char calcNetIncome;
-                // var to hold the amount taken from check
-                double amountWitheld = 0.00;
-                char.TryParse(Console.ReadLine(), out calcNetIncome);
-                // check to see if the user wants to calculate the net income
-                if (calcNetIncome == 'y') 
+                Console.WriteLine("Would you like to calculate the net income? y/n");
+                char calculateNETINCOME;
+                double amountWitheld;
+                char.TryParse(Console.ReadLine(), out calculateNETINCOME);
+                if (calculateNETINCOME == 'y')
                 {
                     Console.WriteLine("How much money is taken out for taxes and other programs?");
                     double.TryParse(Console.ReadLine(), out amountWitheld);
@@ -63,11 +61,12 @@ namespace IncomeCalculator
                     {
                         Console.WriteLine("Please enter a valid number");
                         double.TryParse(Console.ReadLine(), out amountWitheld);
-                        
+
                     }
                     calculateNetIncome(grossIncome, amountWitheld);
                 }
-
+                Console.WriteLine("Would you like to continue? y/n");
+               char.TryParse(Console.ReadLine(), out choice);
             }
 
             while (choice == 'y');
@@ -80,17 +79,15 @@ namespace IncomeCalculator
         // functions
         public static double calculateGrossIncome(double income,double hoursWorked) 
         {
-            // formula to sole gross income 
             double grossIncome = income * hoursWorked;
-            
             return grossIncome;
 
         }
-        public static double calculateNetIncome(double gIncome, double amountWitheldFromPrograms) 
+        public static double calculateNetIncome(double gIncome, double amountWitheldFromPrograms)
         {
             double netIncome = gIncome - amountWitheldFromPrograms;
             return netIncome;
-        
+
         }
     }
 }
